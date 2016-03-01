@@ -224,31 +224,32 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "plugins"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
-    disabled_channels = {},
+    sudo_users = {196791585,158788916,131702074,103788804,0,tonumber(our_id)},--Sudo users
+    disabled_channels = {94293138},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[Roohsavar v3.5 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+💎github💎
+📁 https://github.com/theonlywild/roohsavar 📂
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+⚜Admins⚜
+🔶 @lonelywild [Founder]
+🔶 @ShadowAdmin [programmer]
+🔶 @mehdi_killer78 [Manager]
+🔶 @masudre11  [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+❤️Special thanks to❤️
+❣ThisIsamirh❣
+❣milad_az❣
+❣amin826❣
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+✌Our channels✌
+@roohsavarTeam [persian]
+🇮🇷 made in iran 🇮🇷
 ]],
     help_text_realm = [[
 Realm Commands:
